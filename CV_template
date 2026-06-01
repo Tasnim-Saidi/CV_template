@@ -1,0 +1,197 @@
+%------------------------
+% Resume Template
+% Author : Tasnim Saidi
+% Github : https://github.com/Tasnim-Saidi
+% License : MIT
+%------------------------
+
+\documentclass[a4paper,20pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.530in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.45in}
+\addtolength{\textheight}{1in}
+
+\urlstyle{rm}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-10pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeItemWithoutTitle}[1]{
+  \item\small{
+    {\vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{#3} & \textit{#4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-3pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-----------------------------
+%%%%%%  CV STARTS HERE  %%%%%%
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{{\LARGE Your Full Name}} & Email: \href{mailto:your.email@example.com}{your.email@example.com}\\
+  & Mobile:~~~+XX XXX XXX XXX \\
+  \href{https://github.com/your-github-username}{Github: ~~github.com/your-github-username} \\
+  \href{https://www.linkedin.com/in/your-linkedin-profile}{LinkedIn: ~~Your Name}
+\end{tabular*}
+
+%-----------EDUCATION-----------------
+\section{~~Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Your Engineering School}{City, Country}
+      {Degree Program (e.g. Computer Science Engineering)}{Start Year -- Present\\[4pt]}{Courses: Course 1, Course 2, Course 3}
+  \resumeSubHeadingListEnd
+
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Your Preparatory Institute}{City, Country}
+      {Preparatory Cycle (e.g. Mathematics and Physics)}{Start Year -- End Year}
+  \resumeSubHeadingListEnd
+
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Your High School}{City, Country}
+      {Baccalaureate (e.g. Mathematics)}{Year}
+  \resumeSubHeadingListEnd
+
+\vspace{-5pt}
+\section{Skills Summary}
+  \resumeSubHeadingListStart
+    \resumeSubItem{Languages}{~~~~~~~~~~~~Python, SQL, HTML, CSS, C, C++, JavaScript}
+    \resumeSubItem{Frameworks}{~~~~~~~~~~Laravel, Next.js, Tkinter, OpenCV, MediaPipe, React.js}
+    \resumeSubItem{Tools}{~~~~~~~~~~~~~~~~~~~~Git, VS Code, GitHub, Adobe Illustrator, Arduino, ESP32}
+    \resumeSubItem{Interests}{~~~~~~~~~~~~~~~Artificial Intelligence, Computer Vision, Full-Stack Web Dev, IoT}
+    \resumeSubItem{Soft Skills}{~~~~~~~~~~~~~Leadership, Creativity, Time Management, Teamwork}
+  \resumeSubHeadingListEnd
+
+\vspace{-5pt}
+%-----------EXPERIENCE-----------------
+\section{Experience}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+  {Company or Organization Name}{City, Country}
+  {Your Role / Position}{Start Date -- End Date}
+  \resumeItemListStart
+    \resumeItem{Responsibility 1}
+      {Describe what you did and the impact or outcome.}
+    \resumeItem{Responsibility 2}
+      {Describe what you did and the impact or outcome.}
+  \resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+\vspace{-5pt}
+%-----------PROJECTS-----------------
+\section{Projects}
+\resumeSubHeadingListStart
+
+\resumeSubItem{Project Name 1 -- Brief Description}{(Month Year)
+One or two sentences describing what the project does and its purpose.
+\\
+Your specific role and contributions to the project.
+\\
+Tech: List, of, technologies, used
+}
+\vspace{2pt}
+
+\resumeSubItem{Project Name 2 -- Brief Description}{(Month Year)
+One or two sentences describing what the project does and its purpose.
+\\
+Your specific role and contributions to the project.
+\\
+Tech: List, of, technologies, used
+}
+\vspace{2pt}
+
+\resumeSubItem{Project Name 3 -- Brief Description}{(Month Year)
+One or two sentences describing what the project does and its purpose.
+\\
+Your specific role and contributions to the project.
+\\
+Tech: List, of, technologies, used
+}
+
+\resumeSubHeadingListEnd
+
+%-----------CERTIFICATIONS-----------------
+\vspace{-5pt}
+\section{Certifications}
+\resumeSubHeadingListStart
+  \resumeItem{Issuing Organization 1}
+    {Certification Name 1}
+  \resumeItem{Issuing Organization 2}
+    {Certification Name 2}
+\resumeSubHeadingListEnd
+
+%-----------VOLUNTEER-----------------
+\vspace{-5pt}
+\section{Volunteer Experience \& Leadership}
+
+\resumeSubHeadingListStart
+
+\resumeSubheading
+  {Organization Name}{City, Country}
+  {Your Role (e.g. Treasurer, Vice President)}{Start Date -- Present\\[3pt]}
+  {\vspace{2pt} Describe your responsibilities and achievements in this role. Mention key contributions, events organized, or impact made.}
+
+\resumeSubheading
+  {Organization Name 2}{City, Country}
+  {Your Role (e.g. Member, Team Lead)}{Start Date -- Present\\[3pt]}
+  {Describe your involvement, the type of projects you contributed to, and any outcomes or skills developed.}
+
+\resumeSubHeadingListEnd
+
+\vspace{-2pt}
+\end{document}
